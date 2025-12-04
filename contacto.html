@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logocaja">
+            <img src="img/logo.png" alt="" class="logo">  <h1>  Mousepad personalizados
+            </h1>
+        </div>
+        </h1>
+        <nav>
+           <ul>
+               <li> <a href="index.html" class="boton2">Inicio</a> </li>
+               <li> <a href="contacto.html" class="boton2">Contacto</a></li>
+               <li> <a href="productos.html" class="boton2">Productos</a></li>
+               <li> <a href="acerca.html" class="boton2">Acerca</a></li>
+           </ul>
+       </nav> 
+   </header>
+   <main>
+    <section>
+        <h2>Envianos un mensaje</h2>
+
+        <form action="" class="container" id="formulario-contacto">
+            <label for="">Usuario</label>
+            <input type="text" id="nombre-input">
+            <p id="error-nombre" class="error-mensaje"></p>
+            <label for="">Correo electrónico</label>
+            <input type="text" id="email-input">
+            <p id="error-email" class="error-mensaje"></p>
+            <label for="">Mensaje</label>
+            <input type="text" id="mensaje-input">
+            <p id="error-texto" class="error-mensaje"></p>
+            <label for="archivo" style="display: inline-block;" class="file" id="subir1">⬆️</label>
+            <input type="file" id="archivo" style="display: none;" accept="image/*">
+            <button type="submit" class="container" id="boton1">Enviar</button>
+        </form>
+        <p id="mensaje-exito"></p>
+    </section>
+    <section>
+        <div id="preview">
+            <img id="previewImage" src="" alt="Vista previa">
+            <button type="button" class="Enviar" id="closeBtn">Subir</button>
+        </div>
+    </section>
+   </main>
+   <footer>
+    <p>
+        @ 2025 ARTPAD. Todos los derechos reservados
+    </p>
+   
+</footer>
+<script src="js/contacto.js"></script>
+<script src="js/archivo.js"></script>
+</body>
+</html>
